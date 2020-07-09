@@ -18,8 +18,9 @@ html {
     border-radius: 1rem;
   }
 
-  .images {
-    border-radius: 1rem;
+  body header ul li a {
+    padding: 10px 20px;
+    margin: 0 20px;
   }
 }
 
@@ -95,8 +96,8 @@ header {
   }
 
     header ul li a {
-      padding: 10px 20px;
-      margin: 0 20px;
+      padding: 10px 16px;
+      margin: 0 14px;
       border-radius: 2rem;
     }
 
@@ -162,7 +163,6 @@ header {
       border-radius: 0.7rem;
       cursor: pointer;
       display: none;
-      image-orientation: from-image;
     }
 
   .checked {
