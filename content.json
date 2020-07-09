@@ -1,0 +1,333 @@
+{
+  "employees": [
+    {
+      "name": "Magnus Sjöberg",
+      "position": "Försäljning",
+      "phone": "070-380 30 70",
+      "email": "magnus@orebroskyltdekor.se",
+      "image": "./images/anstalda/magnus-sjoberg.jpg"
+    },
+    {
+      "name": "Henrik Wale",
+      "position": "Applicering",
+      "phone": "070-380 30 69",
+      "email": "henrik@orebroskyltdekor.se",
+      "image": "./images/anstalda/henrik-wale.jpg"
+    },
+    {
+      "name": "Mats Fjellner",
+      "position": "Projektledning/Ateljé",
+      "phone": "0707-22 22 20",
+      "email": "mats@orebroskyltdekor.se",
+      "image": "./images/anstalda/mats-fjellner.jpg"
+    },
+    {
+      "name": "Gert Hedström",
+      "position": "Triova Produktion",
+      "image": "./images/anstalda/gert-hedstrom.jpg"
+    },
+    {
+      "name": "Mimmi Angelmyr Fjellner",
+      "position": "Triova Produktion",
+      "image": "./images/anstalda/mimmi-angelmyr-fjellner.jpg"
+    }
+  ],
+  "images": [
+    {
+      "filnamn": "./images/skyltar/1.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/2.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/3.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/4.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/5.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/6.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/7.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/8.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/9.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/10.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/11.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/skyltar/12.jpg",
+      "kategori": "skyltar"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/1.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/2.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/3.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/4.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/5.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/6.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/7.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/8.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/9.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/10.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/11.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/12.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/dekal-dekor/13.jpg",
+      "kategori": "dekal-dekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/1.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/2.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/3.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/4.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/5.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/6.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/7.jpg",
+      "kategori" :"fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/8.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/9.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/10.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/11.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/12.jpg",
+      "kategori" :"fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/13.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/14.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/15.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/16.jpg",
+      "kategori" :"fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/17.jpg",
+      "kategori": "fordonsdekor"
+    },
+    {
+      "filnamn": "./images/fordonsdekor/18.jpg",
+      "kategori" :"fordonsdekor"
+    },
+    {
+      "filnamn": "./images/profil/1.jpg",
+      "kategori": "profil"
+    },
+    {
+      "filnamn": "./images/profil/2.jpg",
+      "kategori": "profil"
+    },
+    {
+      "filnamn": "./images/profil/3.jpg",
+      "kategori": "profil"
+    },
+    {
+      "filnamn": "./images/profil/4.jpg",
+      "kategori": "profil"
+    },
+    {
+      "filnamn": "./images/profil/5.jpg",
+      "kategori": "profil"
+    },
+    {
+      "filnamn": "./images/ovrigt/1.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/2.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/3.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/4.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/5.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/6.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/7.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/8.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/9.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/10.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/11.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/12.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/13.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/14.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/15.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/16.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/17.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/18.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/19.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/20.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/21.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/22.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/23.jpg",
+      "kategori" :"ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/24.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/25.jpg",
+      "kategori": "ovrigt"
+    },
+    {
+      "filnamn": "./images/ovrigt/26.jpg",
+      "kategori": "ovrigt"
+    }
+  ]
+}
