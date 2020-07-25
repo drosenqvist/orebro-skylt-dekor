@@ -10,33 +10,31 @@ renderImages = (data) => {
   imageList.forEach(function (image) {
     const currentImage = document.createElement('img')
           currentImage.src = image.filnamn
-          currentImage.className = 'modal'
           currentImage.classList.add(image.kategori)
 
-          if (currentImage.classList[1] === 'skyltar') {
+          if (currentImage.classList[0] === 'skyltar') {
             currentImage.classList.add('checked')
           }
 
     const imageContainer = document.querySelector('.image-container')
-
-    imageContainer.appendChild(currentImage)
+          imageContainer.appendChild(currentImage)
   })
 
-  imageFilter()
   imageModal()
+  imageFilter()
 }
 
 const imageModal = () => {
-  const images = document.querySelectorAll('.modal')
+  const images = document.querySelectorAll('.image-container > img')
 
-    images.forEach(function(index) {
-      index.addEventListener('click', () => {
-        imageHandler(index)
+    images.forEach(function(image) {
+      image.addEventListener('click', () => {
+        imageHandler(image)
       })
     })
   }
 
-const imageHandler = (index) => {
+const imageHandler = (image) => {
   // Functionality unnecessary on mobile, thus we break it
   if (this.innerWidth < 660) {
     return false
@@ -46,7 +44,7 @@ const imageHandler = (index) => {
         modal = document.createElement('img')
 
   modalHolder.className = 'modal-holder-active'
-  modal.src = index.src
+  modal.src = image.src
 
   modalHolder.appendChild(modal)
 
@@ -87,16 +85,14 @@ const imageFilter = () => {
 
         categories.forEach(function(category) {
           category.addEventListener('click', () => {
-            if (category.checked) {
-              matchWithImages(category)
-            }
+            matchWithImages(category)
           })
         })
 
   const matchWithImages = (category) => {
-    const images = document.querySelectorAll('.modal')
+    const images = document.querySelectorAll('.image-container > img')
           images.forEach(function(image) {
-            if (image.classList[1] === category.id) {
+            if (image.classList[0] === category.id) {
               image.classList.add('checked')
             } else {
               image.classList.remove('checked')
