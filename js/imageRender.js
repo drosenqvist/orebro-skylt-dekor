@@ -9,15 +9,23 @@ renderImages = (data) => {
 
   imageList.forEach(function (image) {
     const currentImage = document.createElement('img')
+    const textDesc = document.createElement('p')
+          textDesc.textContent = image.beskrivning
+          textDesc.className = 'hidden'
           currentImage.src = image.filnamn
-          currentImage.classList.add(image.kategori)
 
-          if (currentImage.classList[0] === 'skyltar') {
-            currentImage.classList.add('checked')
-          }
+    const wrapper = document.createElement('div')
+          wrapper.appendChild(currentImage)
+          wrapper.appendChild(textDesc)
 
+    wrapper.classList.add(image.kategori)
+
+      if (wrapper.classList[0] === 'skyltar') {
+        wrapper.classList.add('checked')
+      }
+    
     const imageContainer = document.querySelector('.image-container')
-          imageContainer.appendChild(currentImage)
+          imageContainer.appendChild(wrapper)
   })
 
   imageModal()
@@ -25,7 +33,7 @@ renderImages = (data) => {
 }
 
 const imageModal = () => {
-  const images = document.querySelectorAll('.image-container > img')
+  const images = document.querySelectorAll('.image-container > div')
 
     images.forEach(function(image) {
       image.addEventListener('click', () => {
@@ -41,22 +49,27 @@ const imageHandler = (image) => {
   }
 
   const modalHolder = document.querySelector('.modal-holder'),
-        modal = document.createElement('img')
+        modal = document.createElement('img'),
+        desc = document.createElement('p')
 
   modalHolder.className = 'modal-holder-active'
-  modal.src = image.src
+  modal.src = image.children[0].src
+  desc.textContent = image.children[1].textContent
 
   modalHolder.appendChild(modal)
+  modalHolder.appendChild(desc)
 
   imageModalControl(modalHolder)
 }
 
 const imageModalControl = (modalHolder) => {
   const closeModal = document.querySelector('.close-modal'),
-        image = document.querySelector('.modal-holder-active').children[1]
+        image = document.querySelector('.modal-holder-active').children[1],
+        desc = document.querySelector('.modal-holder-active').children[2]
 
   const close = () => {
     image.remove()
+    desc.remove()
     modalHolder.className = 'modal-holder'
   }
 
@@ -90,7 +103,7 @@ const imageFilter = () => {
         })
 
   const matchWithImages = (category) => {
-    const images = document.querySelectorAll('.image-container > img')
+    const images = document.querySelectorAll('.image-container > div')
           images.forEach(function(image) {
             if (image.classList[0] === category.id) {
               image.classList.add('checked')

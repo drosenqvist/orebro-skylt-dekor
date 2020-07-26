@@ -35,7 +35,8 @@
   "images": [
     {
       "filnamn": "./images/skyltar/1.jpg",
-      "kategori": "skyltar"
+      "kategori": "skyltar",
+      "beskrivning": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
     },
     {
       "filnamn": "./images/skyltar/2.jpg",

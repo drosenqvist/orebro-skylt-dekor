@@ -144,16 +144,19 @@ header {
     gap: 30px;
   }
     
-    .products .image-container img {
-      width: 100%;
-      border-radius: var(--light-rounded);
-      cursor: pointer;
+    .products .image-container div {
       display: none;
     }
 
-    .products .image-container .checked {
-      display: block;
-    }
+      .products .image-container div img {
+        width: 100%;
+        border-radius: var(--light-rounded);
+        cursor: pointer;
+      }
+
+      .products .image-container .checked {
+        display: block;
+      }
 
   .modal-holder {
     display: none;
@@ -163,6 +166,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -174,6 +178,13 @@ header {
     .modal-holder-active img {
       width: 700px;
       border-radius: var(--light-rounded);
+    }
+
+    .modal-holder-active p {
+      color: black;
+      max-width: 700px;
+      background-color: white;
+      display: block;
     } 
 
     .close-modal {
@@ -259,3 +270,8 @@ footer {
   footer span {
     margin: 70px 0;
   }
+
+
+.hidden {
+  display: none;
+}
