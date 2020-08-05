@@ -31,8 +31,6 @@ const getJson = (category) => {
   })
 }
 
-
-
 const render = (image, modalImage) => {
   const newImage = document.createElement('img')
         newImage.src = image.filnamn
