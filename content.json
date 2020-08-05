@@ -35,8 +35,7 @@
   "images": [
     {
       "filnamn": "./images/skyltar/1.jpg",
-      "kategori": "skyltar",
-      "beskrivning": "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
+      "kategori": "skyltar"
     },
     {
       "filnamn": "./images/skyltar/2.jpg",
@@ -149,7 +148,8 @@
 
     {
       "filnamn": "./images/dekal-dekor/1.jpg",
-      "kategori": "dekal-dekor"
+      "kategori": "dekal-dekor",
+      "filnamnStor": "./images/dekal-dekor/1-big.jpg"
     },
     {
       "filnamn": "./images/dekal-dekor/2.jpg",
@@ -325,6 +325,22 @@
     },
     {
       "filnamn": "./images/profil/5.jpg",
+      "kategori": "profil"
+    },
+    {
+      "filnamn": "./images/profil/6.jpg",
+      "kategori": "profil"
+    },
+    {
+      "filnamn": "./images/profil/7.jpg",
+      "kategori": "profil"
+    },
+    {
+      "filnamn": "./images/profil/8.jpg",
+      "kategori": "profil"
+    },
+    {
+      "filnamn": "./images/profil/9.jpg",
       "kategori": "profil"
     },
     {
