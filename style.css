@@ -81,10 +81,10 @@ header {
       header ul li a {
         padding: 10px 20px;
         border-radius: 2rem;
-        transition: var(--fast-smooth);
       }
 
       header ul li a:hover {
+        transition: var(--fast-smooth);
         background-color: var(--light-blue);
       }
 
@@ -190,11 +190,13 @@ header {
 
 .about h2 {
   margin: 40px;
+  text-align: center;
 }
 
 .about p {
-  margin: 20px 40px;
+  margin: 20px 40px 80px 40px;
   font-weight: 300;
+  line-height: 24.5px;
 }
 
 .contact {

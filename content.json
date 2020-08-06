@@ -308,6 +308,10 @@
       "kategori" :"fordonsdekor"
     },
     {
+      "filnamn": "./images/fordonsdekor/24.jpg",
+      "kategori" :"fordonsdekor"
+    },
+    {
       "filnamn": "./images/profil/1.jpg",
       "kategori": "profil"
     },

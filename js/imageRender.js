@@ -25,34 +25,34 @@ const getJson = (category) => {
   }).then(data => {
     data.images.forEach(function(image) {
       if (category.id === image.kategori) {
-        render(image, image.filnamnStor)
+        render(image)
       }
     })
   })
 }
-
-const render = (image, modalImage) => {
+ 
+const render = (image) => {
   const newImage = document.createElement('img')
         newImage.src = image.filnamn
 
   const imageContainer = document.querySelector('.image-container')
         imageContainer.appendChild(newImage)
 
-  imageModal(newImage, image, modalImage)
+  imageModal(newImage, image)
 }
 
-const imageModal = (newImage, image, modalImage) => {
+const imageModal = (newImage, image) => {
   newImage.addEventListener('click', () => {
-    imageHandler(image, modalImage)
+    imageHandler(image)
   })
 }
 
-const imageHandler = (image, modalImage) => {
+const imageHandler = (image) => {
   const modalHolder = document.querySelector('.modal-holder')
         modalHolder.className = 'modal-holder-active'
   
   const modal = document.createElement('img')
-  modalImage ? modal.src = modalImage : modal.src = image.filnamn
+        modal.src = image.filnamn
 
   modalHolder.appendChild(modal)
 
